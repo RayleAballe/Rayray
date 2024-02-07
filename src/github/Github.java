@@ -5,6 +5,8 @@
  */
 package github;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Student
@@ -18,7 +20,11 @@ public class Github {
         System.out.println("Hello World" ); 
         int a = 1;
         System.out.println(a);
+               Scanner scn = new Scanner(System.in);
+               System.out.println("Name nako?: ");
+               String name = scn.nextLine();
                
+               System.out.println("Akoang name kay:" + name);
     }
     
 }
